@@ -142,3 +142,87 @@ body{
     background-color: #1f2520;
     color: white;
 }
+
+@media only screen and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+/*--- caption Section --*/
+.caption{
+    position: relative;
+    top: 38%;
+    left: 4%;
+    padding-left: 0px;
+}
+/*--- 01 Section --*/
+
+.services01{
+    margin-top: 8%;
+    margin-left: 2%;
+    margin-bottom: 8%;
+}
+.services01 h5{
+    color: rgb(30, 160, 47);
+    font-size: 23px;
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+.numbers{
+    font-size: 55px;
+    font-family: 'Abril Fatface';
+    color: black;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+.services01 p{
+    color: grey;
+    font-size: 15px;
+    padding-bottom: 1rem;
+    font-weight: 200;
+}
+.services01 h6{
+    color: rgb(24, 24, 24);
+    font-size: 19px;
+    padding-top:5px;
+    letter-spacing: 1px;
+}
+.dash{
+    font-family: cursive;
+    color: rgb(1, 167, 70);
+    font-weight: bolder;
+    font-size: -webkit-xxx-large;
+    position: relative;
+    top: 7px;
+}
+.new-w{
+    width: 20px;
+}
+.section4-2 h6{
+    padding-top: 0px !important;
+}
+
+.section4-2 p{
+    padding-bottom: 0rem !important;
+}
+.change-pos{
+    order: +1;
+}
+
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:264px;
+    width:400px;
+}
+.gmap_canvas{overflow:hidden;
+    height:264px;
+    width:400px;
+}
+.contact-numbers{
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+
+}
