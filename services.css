@@ -1,0 +1,144 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+  
+  
+
+/*--- Nav-Bar Section --*/
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+}
+.navbar-brand img{
+   height: 3rem;
+}
+.navbar-nav li{
+    padding-right: 2rem
+}
+
+
+
+/*--- services Section --*/
+.big-bg{
+    background-image: url("img/Shapes3.png");
+}
+.services{
+    background-image: url("img/Mask\ Group00014.png");
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 110%;
+    overflow: hidden;
+    position: relative;
+    right: 5%;
+}
+.caption{
+    width: 100%;
+    max-width:100%;
+    position: absolute;
+    top: 34%;
+    left: 36%;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    overflow: hidden;
+}
+.services h1{
+    font-size:3.8rem ;
+    font-weight: 700 ;
+    letter-spacing: 0.3rem ;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+/*--- 01 Section --*/
+.services01{
+    margin-top: 8%;
+    margin-left: 2%;
+    margin-bottom: 8%;
+}
+.services01 h5{
+    color: rgb(30, 160, 47);
+    font-size: 23px;
+    padding-bottom: 1rem;
+    font-weight: 600;
+}
+.numbers{
+    font-size: 55px;
+    font-family: 'Abril Fatface';
+    color: black;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+.services01 p{
+    color: grey;
+    font-size: 15px;
+    padding-bottom: 1rem;
+    font-weight: 200;
+}
+
+.services01 h6{
+    color: rgb(24, 24, 24);
+    font-size: 19px;
+    padding-top:5px;
+    letter-spacing: 1px;
+}
+.dash{
+    font-family: cursive;
+    color: rgb(1, 167, 70);
+    font-weight: bolder;
+    font-size: -webkit-xxx-large;
+    position: relative;
+    top: 7px;
+}
+.new-w{
+    width: 20px;
+}
+
+.section4-2 h6{
+    padding-top: 0px !important;
+}
+
+.section4-2 p{
+    padding-bottom: 0rem !important;
+}
+
+/*--- contact Section --*/
+.contact{
+    margin-top: 5rem;
+}
+.ic-color{
+    color: #616060;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:329px;
+    width:483px;
+}
+.gmap_canvas{overflow:hidden;
+    height:329px;
+    width:483px;
+}
+.mapborder{
+    border-right: 20px solid rgb(33, 180, 73);
+    border-bottom: 20px solid rgb(30, 156, 63);
+}        
+.contact-numbers{
+    padding-left: 6rem;
+    padding-top: 3rem;
+}
+
+
+/*--- footer Section --*/
+.footer{
+    margin-top: 2rem;
+    overflow: hidden;
+}
+.dark-background{
+    background-color: #1f2520;
+    color: white;
+}

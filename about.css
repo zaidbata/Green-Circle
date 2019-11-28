@@ -1,0 +1,263 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  
+  /*--- Nav-Bar Section --*/
+  .navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+  }
+  .navbar-brand img{
+   height: 3rem;
+  }
+  .navbar-nav li{
+    padding-right: 2rem
+  }
+  
+    
+  /*--- Landing Section --*/
+  .landing{
+      padding: 20px 20px;
+  }
+  .landing span{
+      color:rgb(20, 172, 20);
+  }
+  .landing h2{
+      text-transform: uppercase;
+      position: relative;
+      left:20px;
+      margin-bottom: 50px;
+  }
+  .landing p{
+      color:grey;
+      padding-left: 70px;
+      padding-right: 70px;
+  }
+  .home-inner{
+      background-image: url("img/MaskGroup14.png");
+      height: 350px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-top: 100px;
+  }
+
+
+ /*--- V&M Section --*/
+   .vision-mission{
+      margin-top: 70px;
+    }  
+    .vision-mission p{
+        color: grey;
+    }
+    .vision-mission h3{
+        padding-bottom: 30px;
+    }
+    .mission{
+        padding-bottom: 100px;
+    }
+    .vision-mission span{
+        color: green;
+    }
+
+
+    /*--- CEO Section --*/
+    .ceo span{
+        color: green;
+    }
+    .ceo h3{
+        margin-top: 80px;
+        font-size: 1.55rem;
+        word-spacing: 1px;
+        letter-spacing: 2px;
+        position: relative;
+        right: 40px;
+    }
+    .ceo h5{
+        margin-top: 50px;
+        color: rgb(99, 99, 99);
+    }
+    .ceo p {
+        color: grey;
+    }
+    .ceo-pos{
+        padding-left: 100px;
+    }
+    .ceo h4{
+        padding-top: 20px;
+        padding-left: 9rem;
+    }
+    .ceo h6{
+        margin-bottom: 40px;
+        padding-left: 12rem;
+    }
+
+
+    /*--- Team Section --*/
+    .team{
+        margin-top: 3rem;
+        margin-left: 6rem;
+    } 
+    .fst-team{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .sec-team{
+        margin-bottom: 2rem;
+    }
+    .thr-team{
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+    .name-pad{
+        margin-top: 30px;
+    }
+
+
+    /*--- partners Section --*/
+    .partners{
+        background-image: url("img/Partner\ and\ customer.png");
+        background-repeat: no-repeat;
+        height: 400px;
+        width: 100%;
+    }
+    .partners-bg2{
+        background-image: url(img/Group225.png);
+        background-repeat: no-repeat;
+    }
+    .part-next{
+        padding-right: 5rem;
+    }
+
+
+    /*--- contact Section --*/
+    .contact{
+        margin-top: 5rem;
+    }
+    .ic-color{
+        color: #616060;
+    }
+    .mapouter{
+        position:relative;
+        text-align:right;
+        height:329px;
+        width:483px;
+    }
+    .gmap_canvas{overflow:hidden;
+        height:329px;
+        width:483px;
+    }
+    .mapborder{
+        border-right: 20px solid rgb(33, 180, 73);
+        border-bottom: 20px solid rgb(30, 156, 63);
+    }        
+    .contact-numbers{
+        padding-left: 6rem;
+        padding-top: 3rem;
+    }
+
+
+    /*--- footer Section --*/
+    .footer{
+        margin-top: 2rem;
+        overflow: hidden;
+    }
+    .dark-background{
+        background-color: #1f2520;
+        color: white;
+    }
+
+
+
+@media only screen and (max-width: 768px){
+    /*--- Landing Section --*/
+    .landing{
+        padding: 0px;
+    }
+        .landing h2{
+        position: relative;
+        left:5px;
+        margin-bottom: 20px;
+    }
+    .landing p{
+        color:grey;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .home-inner{
+        margin-top: 39px;
+        background-size: 26rem 13rem;
+        height: 210px;
+    }
+/*--- V&M Section --*/
+    .vision-mission{
+        margin-top: 70px;
+    }  
+    .vision-mission h3{
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .mission{
+        padding-bottom: 7px;
+    }
+/*--- CEO Section --*/
+    .ceo h3{
+        right: 0px;
+    }
+    .ceo-pos{
+        padding-left: 0px;
+    }
+    .ceo h4{
+        padding-top: 16px;
+        padding-left: 28px;
+        font-size: 23px;
+    }
+    .ceo h6{
+        margin-bottom: 40px;
+        padding-left: 66px;
+    }
+/*--- Team Section --*/
+    .team{
+        margin-top: 3rem;
+        margin-left: 4rem;
+    }
+    .team-prev{
+        position: relative;
+        top: 38px;
+    }
+    .partners{
+        height: 72rem;
+    }
+    .partners-bg2{
+        height: 15rem;
+    }
+    .part-rows{
+        margin-left: 71px;
+    }
+    .part-next{
+        padding-right: 20rem;
+    }
+    .partners-prev{
+        position: relative;
+        left: 9rem;
+        top: 39px;
+
+    }
+/*--- contact Section --*/
+    .mapouter{
+        position:relative;
+        text-align:right;
+        height:264px;
+        width:400px;
+    }
+    .gmap_canvas{overflow:hidden;
+        height:264px;
+        width:400px;
+    }
+    .contact-numbers{
+        padding-left: 3rem;
+        padding-top: 3rem;
+    }
+}

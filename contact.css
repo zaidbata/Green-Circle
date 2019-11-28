@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  
+/*--- Nav-Bar Section --*/
+  .navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+  }
+  .navbar-brand img{
+   height: 3rem;
+  }
+  .navbar-nav li{
+    padding-right: 2rem;
+
+  }
+
+
+/*--- Fill Section --*/
+    .fill{
+        overflow: hidden !important;
+    }
+    .left-ph{
+        background-image: url("img/rectangle-18.png");
+        height: 630px;
+    }
+    .fill-pos{
+        padding-top: 40px;
+        padding-left: 105px;
+    }
+    .text-fill-pos2{
+        padding-top: 15px;
+        padding-left: 108px;
+        color: grey;
+        font-size: 15px;
+    }
+    .text-fill-pos{
+        padding-top: 130px;
+        padding-left: 105px;
+        letter-spacing: 2px;
+        font-size: 20px;
+    }
+    .send-pos{
+        padding-left: 23rem;
+    }
+    .edges-fill{
+        border: 3px solid rgb(122, 120, 120);
+        border-radius: 12px;
+    }
+
+/*--- contact Section --*/
+    .contact{
+        overflow: hidden !important;
+    }
+    .con-pos{
+        padding-left: 120px;
+        padding-top: 131px;    
+    }
+    .ic-color{
+        color: #616060;
+        padding-bottom: 15px;
+    }
+    .spc-rght{
+        position: relative;
+        right:30px;
+    }
+    .space-top{
+        padding-top: 70px;
+    }
+    .mapouter{
+        position:relative;
+        text-align:right;
+        height:630px;
+        width:670px;
+        right: 15px;
+    }
+    .gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        height:630px;
+        width:670px;
+    }     
+    .map-bg{
+        background-image: url("img/map.png");
+        height: 630px;
+    }
+    
+
+/*--- footer Section --*/
+    .footer{
+        overflow: hidden !important;
+    }
+    .dark-background{
+        background-color: #1f2520;
+        color: white;
+    }
+
+@media only screen and (max-width: 768px){
+    
+/*--- Fill Section --*/
+.left-ph{
+    height: 24rem;
+    background-size: contain;
+}
+.fill-pos{
+    padding-left: 0rem;
+}
+.text-fill-pos2{
+    padding-top: 7px;
+    padding-left: 1rem;
+    font-size: 14px;
+}
+.text-fill-pos{
+    padding-top: 4rem;
+    padding-left: 69px;
+}
+.send-pos{
+    padding-left: 20rem;
+}
+
+/*--- contact Section --*/
+.con-pos{
+    padding-left: 85px;
+    padding-top: 3rem;  
+}
+.gmap_canvas {
+    height:264px;
+    width:400px;
+}     
+.map-bg{
+    height:280px;
+}
+    
+}

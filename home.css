@@ -1,0 +1,324 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+  
+  
+/*--- Nav-Bar Section --*/
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+}
+  .navbar-brand img{
+   height: 3rem;
+
+}
+.navbar-nav li{
+    padding-right: 2rem;
+
+}
+
+
+/*--- Landing Section ---*/
+.home-inner{
+    background-image:url("img/Background.png");
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.caption{
+    width: 100%;
+    max-width:100%;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+}
+  
+.caption h1{
+    font-size:3.8rem ;
+    font-weight: 700 ;
+    letter-spacing: 0.3rem ;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+  
+.caption h3{
+    font-size:2rem ;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+
+
+/*--- About Section --*/
+.what-do{
+    overflow: hidden;
+    position: relative;
+    top: 60px;
+}
+.integrated{
+    color: rgb(3, 148, 68);
+}
+.Secure{
+    color: rgb(102, 101, 101);
+}
+.mask2{
+    background-image: url("img/MaskGroup2.png");
+    height: 260px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 30px;
+    background-size: 85% 85%;
+}
+.pos01{
+    padding-top: 57%;
+    padding-left: 64%;
+}
+
+
+/*--- Training Section --*/
+.training{
+    overflow: hidden;
+    background-image: url("img/Group238.png");
+    height: 580px;
+    margin-top: 8%;
+    background-repeat: no-repeat;
+}
+.training-sec{
+color: white;
+padding-top: 33px;
+max-width: 42%;
+}
+.training-sec span{
+    color: rgb(8, 146, 54);
+}
+.ontraining-center{
+    position: relative;
+    top: 40px;
+    left: 66px;
+}
+
+
+/*--- Team Section --*/
+.team{
+    overflow: hidden;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.team-btn{
+    padding-top: 95%;
+}
+.fst-team{
+    padding-bottom: 30px;
+}
+.ceo{
+    border-right: 15px solid rgb(33, 180, 73);
+    border-bottom: 15px solid rgb(30, 156, 63);
+}
+
+
+/*--- partners Section --*/
+.partners{
+    overflow: hidden;
+    height: 400px;
+    width: 100%;
+}
+.head-partners{
+    padding-bottom: 30px;
+}
+.partners-bg2{
+    background-image: url(img/Group225.png);
+    background-repeat: no-repeat;
+}
+.part-next{
+    padding-right: 5rem;
+}
+.genex{
+    position: relative;
+    right: 20px;
+}
+.cisco{
+    position: relative;
+    right: 21px;
+    top: 22px;
+}
+.utit{
+    position: relative;
+    right: 26px;
+    top: 14px;
+}
+/*--- News Section --*/
+.head-col{
+    padding-top: 30px;
+    color: white;
+}
+.news-bg{
+    overflow: hidden;
+    background-color: black;
+    height: 650px;
+}
+.news-pos{
+    padding-top: 50px;
+    padding-left: 70px;
+}
+.col-bg{
+    background-image: url("img/Group55.png");
+    background-repeat: no-repeat;
+    height: 350px;
+}
+.box{
+    width:213px;
+    height:150px;
+    background-color: white;
+    z-index: 1;
+}
+.inside-pos{
+    position: relative;
+    right: 5px;
+    top: 7px;
+}
+
+
+/*--- contact Section --*/
+.contact{
+    overflow: hidden;
+    margin-top: 5rem;
+}
+.ic-color{
+    color: #616060;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:329px;
+    width:483px;
+}
+.gmap_canvas{overflow:hidden;
+    height:329px;
+    width:483px;
+}
+.mapborder{
+    border-right: 20px solid rgb(33, 180, 73);
+    border-bottom: 20px solid rgb(30, 156, 63);
+}        
+.contact-numbers{
+    padding-left: 6rem;
+    padding-top: 3rem;
+}
+
+  
+/*--- footer Section --*/
+.footer{
+    overflow: hidden !important;
+}
+.dark-background{
+    background-color: #1f2520;
+    color: white;
+}
+
+@media only screen and (max-width: 768px){
+    .caption{
+        position: relative;
+        top: 36%;
+        color: white;
+        z-index: 1;
+    }
+    .caption h1{
+        font-size: 36px;
+        font-weight: 700;
+        text-shadow: 0.1rem 0.1rem 0.8rem black;
+        padding-bottom: 1rem;
+    }
+    .caption h3{
+        font-size: 28px;
+        text-shadow: 0.1rem 0.1rem 0.5rem black;
+        padding-bottom: 1.6rem;
+    }
+    .home-inner{
+        background-image: url(img/Background.png);
+        background-repeat: no-repeat;
+        height: 490px;
+        overflow: hidden;
+    }
+    .res-764A{
+        height: 165px;
+    }
+    .integrated {
+        padding-top: 44px;
+    }
+    .pos01 {
+        padding-top: 51%;
+    }
+    .ontraining-center {
+        position: relative;
+        left: -12px;
+        max-width: 18%;
+        height: 111px;
+        top: -4px;
+    }
+    .training-sec {
+        color: white;
+        padding-top: 0;
+        max-width: 96%;
+        padding-left: 20%;
+        position: relative;
+        bottom: 106px;
+    }
+    .training-sec h1 {
+        font-size: 25px;
+    }
+    .res-764B{
+        position: relative;
+        font-size: 17px;
+        line-height: 1.5;
+        border-radius: .3rem;
+        top: -41px;
+        left: 11rem;
+    }
+    .team-btn {
+        padding-top: 0;
+    }
+    .team-btn {
+        padding-top: 0;
+    }
+    .partners{
+        background-color: rgb(245, 245, 245);
+        overflow: hidden;
+        height: 62rem;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .partners-bg2{
+        background: none;
+    }
+    .news-pos {
+        padding-top: 50px;
+        padding-left: 101px;
+    }
+    .news-bg {
+        overflow: hidden;
+        background-color: black;
+        height: 108rem;
+    }
+    .genex{
+        position: relative;
+        right: 0px;
+    }
+    .cisco{
+        position: relative;
+        right:0px;
+        top: -10px;
+    }
+    .utit{
+        position: relative;
+        right:0px;
+        top:20px;
+        bottom: 20px;
+    }
+}

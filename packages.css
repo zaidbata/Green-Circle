@@ -1,0 +1,228 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+  
+  
+
+/*--- Nav-Bar Section --*/
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+}
+.navbar-brand img{
+   height: 3rem;
+}
+.navbar-nav li{
+    padding-right: 2rem
+}
+
+
+
+/*--- Products Section --*/
+.big-bg{
+    background-image: url("img/Shapes3.png");
+}
+.packages{
+    background-image: url("img/Mask\ Group\ 0014.png");
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 110%;
+    overflow: hidden;
+    position: relative;
+    right: 5%;
+}
+.caption{
+    width: 100%;
+    max-width:100%;
+    position: absolute;
+    top: 42%;
+    left: 12%;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    overflow: hidden;
+}
+.packages h1{
+    font-size:2.8rem ;
+    font-weight: 700 ;
+    letter-spacing: 0.3rem ;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+/*--- 01 Section --*/
+.packages01{
+    margin-top: 8%;
+    margin-left: 5%;
+    margin-bottom: 8%;
+}
+.packages01 h6{
+    color: rgb(30, 160, 47);
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align-last: center;
+}
+.numb-des{
+    font-size: 55px;
+    font-family: 'Abril Fatface';
+    color: black;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+.packages01 p{
+    color: grey;
+    font-size: 13px;
+}
+.res-pak {
+    font-size: 20px;
+    font-family: 'Abril Fatface';
+    color: black;
+    font-weight: bold;
+}
+
+/*--- 02 Section --*/
+.packages02{
+    margin-top: 8%;
+    margin-left: -5%;
+    margin-bottom: 8%;
+}
+.packages02 h6{
+    color: rgb(30, 160, 47);
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align: start;
+}
+.packages02 p{
+    color: grey;
+    font-size: 13px;
+}
+
+/*--- 03 Section --*/
+.plus-bg{
+    background-color: rgb(39, 39, 39);
+    height: 22rem;
+}
+.plus-spc{
+    padding-top: 3rem;
+}
+.another-color {
+    color: white !important;
+}
+
+
+/*--- contact Section --*/
+.contact{
+    margin-top: 5rem;
+}
+.ic-color{
+    color: #616060;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:329px;
+    width:483px;
+}
+.gmap_canvas{overflow:hidden;
+    height:329px;
+    width:483px;
+}
+.mapborder{
+    border-right: 20px solid rgb(33, 180, 73);
+    border-bottom: 20px solid rgb(30, 156, 63);
+}        
+.contact-numbers{
+    padding-left: 6rem;
+    padding-top: 3rem;
+}
+
+
+/*--- footer Section --*/
+.footer{
+    margin-top: 2rem;
+    overflow: hidden;
+}
+.dark-background{
+    background-color: #1f2520;
+    color: white;
+}
+
+
+@media only screen and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+/*--- caption Section --*/
+.caption{
+    position: relative;
+    top: 38%;
+    left: 22%;
+    padding-left: 0px;
+}
+.packages h1 {
+    font-size: 2.2rem;
+}
+
+/*--- 01 Section --*/
+.packages01{
+    margin-left: 0%;
+}
+.packages01 h6{
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align-last: start;
+}
+.res-pak {
+    font-size: 18px;
+}
+
+/*--- 02 Section --*/
+.packages02{
+    margin-left: 0%;
+}
+.packages02 h6{
+    font-size: 20px;
+    padding-bottom: 0px;
+    text-align: start;
+}
+.numb-des{
+    font-size: 30px;
+    top: 0px;
+}
+.change-pos{
+    order: +1;
+}
+
+/*--- 03 Section --*/
+.plus-bg{
+    background: none;
+    height: auto;
+}
+.plus-spc{
+    padding-top: 3rem;
+}
+.another-color{
+    color: black !important;
+}
+
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:264px;
+    width:400px;
+}
+.gmap_canvas{overflow:hidden;
+    height:264px;
+    width:400px;
+}
+.contact-numbers{
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+
+}

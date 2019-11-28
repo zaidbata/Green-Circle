@@ -1,0 +1,199 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+  
+  
+
+/*--- Nav-Bar Section --*/
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;
+}
+.navbar-brand img{
+   height: 3rem;
+}
+.navbar-nav li{
+    padding-right: 2rem
+}
+
+
+
+/*--- Products Section --*/
+.big-bg{
+    background-image: url("img/Shapes2.png");
+}
+.products{
+    background-image: url("img/Mask\ Group\ 014.png");
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 110%;
+    overflow: hidden;
+    position: relative;
+    right: 5%;
+}
+.caption{
+    width: 100%;
+    max-width:100%;
+    position: absolute;
+    top: 34%;
+    left: 36%;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1;
+    overflow: hidden;
+}
+.products h1{
+    font-size:3.8rem ;
+    font-weight: 700 ;
+    letter-spacing: 0.3rem ;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+
+
+/*--- Products 01 Section --*/
+.go-down{
+    margin-top: 8%;
+}
+.products01 h6{
+    color: rgb(30, 160, 47);
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+.num-style{
+    font-size: 55px;
+    font-family: 'Abril Fatface';
+    color: black;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+.products01 dl{
+    color: grey;
+    font-size: 16px;
+}
+.go-right{
+    position: relative;
+    left: 5rem;
+}
+.dash-style{
+    font-family: cursive;
+    color: #21b449;
+    font-weight: bolder;
+}
+
+
+/*--- contact Section --*/
+.contact{
+    margin-top: 5rem;
+}
+.ic-color{
+    color: #616060;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:329px;
+    width:483px;
+}
+.gmap_canvas{overflow:hidden;
+    height:329px;
+    width:483px;
+}
+.mapborder{
+    border-right: 20px solid rgb(33, 180, 73);
+    border-bottom: 20px solid rgb(30, 156, 63);
+}        
+.contact-numbers{
+    padding-left: 6rem;
+    padding-top: 3rem;
+}
+
+
+/*--- footer Section --*/
+.footer{
+    margin-top: 2rem;
+    overflow: hidden;
+}
+.dark-background{
+    background-color: #1f2520;
+    color: white;
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+        text-align: center;
+    }
+/*--- caption Section --*/
+.caption{
+    position: relative;
+    top: 38%;
+    left: 1%;
+    padding-left: 0px;
+}
+.packages h1 {
+    font-size: 2.2rem;
+}
+
+/*--- Products Section --*/
+
+.products{
+    width: 100%;
+    right: 0%;
+}
+
+/*--- Products 01 Section --*/
+.go-down{
+    margin-top: 8%;
+}
+.products01 h6{
+    color: rgb(30, 160, 47);
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+.num-style{
+    font-size:20px;
+    top: 0px;
+}
+.products01 dl{
+    color: grey;
+    font-size: 16px;
+}
+.go-right{
+    position: relative;
+    left: 0rem;
+}
+.dash-style{
+    font-family: cursive;
+    color: #21b449;
+    font-weight: bolder;
+}
+.disap{
+    display: none;
+}
+.change-pos{
+    order: +1;
+}
+
+
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:264px;
+    width:400px;
+}
+.gmap_canvas{overflow:hidden;
+    height:264px;
+    width:400px;
+}
+.contact-numbers{
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+
+}
